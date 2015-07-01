@@ -14,6 +14,10 @@
 		D60A7DE71B443AB000989AC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60A7DE61B443AB000989AC3 /* Images.xcassets */; };
 		D60A7DEA1B443AB000989AC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60A7DE81B443AB000989AC3 /* LaunchScreen.xib */; };
 		D60A7DF61B443AB000989AC3 /* CustomTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7DF51B443AB000989AC3 /* CustomTransitionsTests.m */; };
+		D60A7E001B443AF300989AC3 /* Puppy_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D60A7DFF1B443AF300989AC3 /* Puppy_2.jpg */; };
+		D60A7E031B443CD100989AC3 /* CustomModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7E021B443CD100989AC3 /* CustomModalViewController.m */; };
+		D60A7E051B44468A00989AC3 /* mabelFlip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D60A7E041B44468A00989AC3 /* mabelFlip.jpg */; };
+		D60A7E081B444C8000989AC3 /* Interactor.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7E071B444C8000989AC3 /* Interactor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		D60A7DEF1B443AB000989AC3 /* CustomTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60A7DF41B443AB000989AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60A7DF51B443AB000989AC3 /* CustomTransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionsTests.m; sourceTree = "<group>"; };
+		D60A7DFF1B443AF300989AC3 /* Puppy_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puppy_2.jpg; sourceTree = "<group>"; };
+		D60A7E011B443CD100989AC3 /* CustomModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModalViewController.h; sourceTree = "<group>"; };
+		D60A7E021B443CD100989AC3 /* CustomModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModalViewController.m; sourceTree = "<group>"; };
+		D60A7E041B44468A00989AC3 /* mabelFlip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mabelFlip.jpg; sourceTree = "<group>"; };
+		D60A7E061B444C8000989AC3 /* Interactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interactor.h; sourceTree = "<group>"; };
+		D60A7E071B444C8000989AC3 /* Interactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interactor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +91,19 @@
 		D60A7DD81B443AB000989AC3 /* CustomTransitions */ = {
 			isa = PBXGroup;
 			children = (
+				D60A7E041B44468A00989AC3 /* mabelFlip.jpg */,
 				D60A7DDD1B443AB000989AC3 /* AppDelegate.h */,
 				D60A7DDE1B443AB000989AC3 /* AppDelegate.m */,
 				D60A7DE01B443AB000989AC3 /* ViewController.h */,
 				D60A7DE11B443AB000989AC3 /* ViewController.m */,
+				D60A7E061B444C8000989AC3 /* Interactor.h */,
+				D60A7E071B444C8000989AC3 /* Interactor.m */,
+				D60A7E011B443CD100989AC3 /* CustomModalViewController.h */,
+				D60A7E021B443CD100989AC3 /* CustomModalViewController.m */,
 				D60A7DE31B443AB000989AC3 /* Main.storyboard */,
 				D60A7DE61B443AB000989AC3 /* Images.xcassets */,
 				D60A7DE81B443AB000989AC3 /* LaunchScreen.xib */,
+				D60A7DFF1B443AF300989AC3 /* Puppy_2.jpg */,
 				D60A7DD91B443AB000989AC3 /* Supporting Files */,
 			);
 			path = CustomTransitions;
@@ -199,7 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60A7E051B44468A00989AC3 /* mabelFlip.jpg in Resources */,
 				D60A7DE51B443AB000989AC3 /* Main.storyboard in Resources */,
+				D60A7E001B443AF300989AC3 /* Puppy_2.jpg in Resources */,
 				D60A7DEA1B443AB000989AC3 /* LaunchScreen.xib in Resources */,
 				D60A7DE71B443AB000989AC3 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60A7DE21B443AB000989AC3 /* ViewController.m in Sources */,
+				D60A7E081B444C8000989AC3 /* Interactor.m in Sources */,
+				D60A7E031B443CD100989AC3 /* CustomModalViewController.m in Sources */,
 				D60A7DDF1B443AB000989AC3 /* AppDelegate.m in Sources */,
 				D60A7DDC1B443AB000989AC3 /* main.m in Sources */,
 			);
